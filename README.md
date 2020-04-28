@@ -52,6 +52,28 @@ http://localhost:3000/graphql
 }
 ```
 
+## Get id
+
+```js
+{
+	post(id: 0) {
+	  title
+	  description
+	}
+}
+```
+
+```
+{
+  "data": {
+    "post": {
+      "title": "First post",
+      "description": "Content of the first post"
+    }
+  }
+}
+```
+
 ## from
 
 https://flaviocopes.com/graphql-node-express/
